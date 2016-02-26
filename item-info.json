@@ -1,0 +1,20 @@
+{
+    "ITEM000001" : {
+        "price" : 3,
+        "unit" : "瓶",
+        "name" : "可口可乐",
+        "discount" : "无"
+    },
+    "ITEM000003" : {
+        "price" : 1,
+        "unit" : "个",
+        "name" : "羽毛球",
+        "discount" : "买二赠一"
+    },
+    "ITEM000005" : {
+        "price" : 3,
+        "unit" : "斤",
+        "name" : "苹果",
+        "discount" : "95折"
+    }
+}

@@ -1,5 +1,4 @@
 *.ipr
 *.iml
 *.iws
-
-./gradle/*
+node_modules/*
