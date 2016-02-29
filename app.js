@@ -14,5 +14,5 @@ var shoppingList = [
 
 var host = new Host('./item-info.json');
 
-host.load(shoppingList).print().printWithStyle();
+host.load(shoppingList).printWithStyle();
 
