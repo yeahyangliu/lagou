@@ -40,10 +40,10 @@ describe('Tote Betting Host', function () {
     });
 
     it('should get the correct price', function () {
-        expect(discounter.calculate(goods['ITEM000001'])).to.deep.equal(15);
-        expect(discounter.calculate(goods['ITEM000003'])).to.deep.equal(2);
-        expect(discounter.calculate(goods['ITEM000005'])).to.deep.equal(8.55);
-        expect(discounter.calculate(goods['ITEM000007'])).to.deep.equal(6);
+        expect(discounter.calculate(goods['ITEM000001']).value).to.deep.equal(15);
+        expect(discounter.calculate(goods['ITEM000003']).value).to.deep.equal(2);
+        expect(discounter.calculate(goods['ITEM000005']).value).to.deep.equal(8.55);
+        expect(discounter.calculate(goods['ITEM000007']).value).to.deep.equal(6);
     })
 });
 
